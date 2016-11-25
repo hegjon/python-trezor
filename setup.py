@@ -11,7 +11,7 @@ else:
 
 setup(
     name='trezor',
-    version='0.7.6',
+    version='0.7.7',
     author='Bitcoin TREZOR',
     author_email='info@bitcointrezor.com',
     description='Python library for communicating with TREZOR Bitcoin Hardware Wallet',
@@ -34,7 +34,6 @@ setup(
         'trezorlib.types_pb2',
     ],
     scripts = ['trezorctl'],
-    test_suite='tests',
     install_requires=install_requires,
     include_package_data=True,
     zip_safe=False,
