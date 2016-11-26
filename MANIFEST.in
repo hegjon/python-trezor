@@ -1,2 +1,3 @@
 recursive-include tests *.py *.sh
 include COPYING
+include bash_completion.d/trezorctl.sh
